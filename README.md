@@ -19,6 +19,8 @@ export ORANGE_SCRIPT_ENGINE=~/OrangeScript.jar</code></pre>
 ### Resolve Java package dependency
 <pre><code>mvn -q -DoutputDirectory=./jars dependency:copy-dependencies</code></pre>
 
+### Run the program
+<pre><code>java -classpath "$ORANGE_SCRIPT_ENGINE":"jars/*" orangeScript.parser.Main -file program.os</code></pre>
 
 | Example  | Purpose |
 |----------|:-------------:|
