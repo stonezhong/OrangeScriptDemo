@@ -5,8 +5,6 @@ The demo gets a image from internet and display it.
 <pre><code>mvn -q -DoutputDirectory=./jars dependency:copy-dependencies</code></pre>
 
 ## To run it:
-<pre><code>
-java -classpath "$ORANGE_SCRIPT_ENGINE":"jars/*" orangeScript.parser.Main -file ShowImage.os
-</code></pre>
+<pre><code>java -classpath "$ORANGE_SCRIPT_ENGINE":"jars/*" orangeScript.parser.Main -file ShowImage.os</code></pre>
 
 
