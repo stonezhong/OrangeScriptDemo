@@ -4,9 +4,7 @@
 
 ### Install JRE 1.7
 In order to run Orange Script, you need to have JRE 1.7 installed
-<pre><code>
-yum install java-1.7.0-openjdk
-</code></pre>
+<pre><code>yum install java-1.7.0-openjdk</code></pre>
 
 ### Install Maven
 Most of time, you need to call Java code in your Orange Script program. You can use maven to resolve java package dependency.
