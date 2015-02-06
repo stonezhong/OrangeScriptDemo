@@ -16,10 +16,8 @@ Most of time, you need to call Java code in your Orange Script program. You can 
 wget http://www.stonezhong.net/OrangeScriptWeb/OrangeScript.jar
 export ORANGE_SCRIPT_ENGINE=~/OrangeScript.jar</code></pre>
 
-
-If you want to play around with Orange Script, please follow the instructions at http://www.stonezhong.net/OrangeScriptWeb/index.html to install it.
-
-This project contains various demos for Orange Script. Here is the list
+### Resolve Java package dependency
+<pre><code>mvn -q -DoutputDirectory=./jars dependency:copy-dependencies</code></pre>
 
 
 | Example  | Purpose |
