@@ -1,0 +1,13 @@
+dependencies {
+    compile "org.json:json:20140107"
+    compile "commons-io:commons-io:2.4"
+    compile "org.apache.httpcomponents:httpclient:4.3.6"
+    compile "org.jsoup:jsoup:1.8.1"
+}
+
+task(runStockQuote, dependsOn: 'classes', type: JavaExec) {
+    main = ORANGE_SCRIPT_MAIN_CLASS
+    classpath = sourceSets.main.runtimeClasspath
+    args = ["-file", "StockQuote.os"]
+}
+

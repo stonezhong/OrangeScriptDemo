@@ -1,0 +1,12 @@
+task(runHelloWorld, dependsOn: 'classes', type: JavaExec) {
+    main = ORANGE_SCRIPT_MAIN_CLASS
+    classpath = sourceSets.main.runtimeClasspath
+    args = ["-file", "helloWorld.os"]
+}
+
+task(runThreadDemo, dependsOn: 'classes', type: JavaExec) {
+    main = ORANGE_SCRIPT_MAIN_CLASS
+    classpath = sourceSets.main.runtimeClasspath
+    args = ["-file", "threadPool.os"]
+}
+
