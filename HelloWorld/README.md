@@ -1,16 +1,12 @@
 # HelloWorld
-
 "Hello world", like any tutorial.
 
-## Simply run:
-<pre><code>java -classpath "$ORANGE_SCRIPT_ENGINE" orangeScript.parser.Main -file helloWorld.os</code></pre>
-
-or
-
+## To run it:
 <pre><code>./gradlew HelloWorld:runHelloWorld</code></pre>
 
 # ThreadDemo
+A demo showing multiple thread in OrangeScript.
 
-## to run it:
+## To run it:
 <pre><code>./gradle HelloWorld:runThreadDmeo</code></pre>
 

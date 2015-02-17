@@ -1,10 +1,8 @@
 # Demo for get stock quote #
 
-## To resolve java package dependency:
-<pre><code>mvn -q -DoutputDirectory=./jars dependency:copy-dependencies</code></pre>
 
 ## To run it:
-<pre><code>java -classpath "$ORANGE_SCRIPT_ENGINE":"jars/*" orangeScript.parser.Main -file StockQuote.os</code></pre>
+<pre><code>./gradlew StockQuote:runStockQuote</code></pre>
 
 ## Sample output:
 <pre><code>
